@@ -8,11 +8,13 @@ class Game extends Component {
   render() {
     return (
       <div className="game-container">
-        <div className="vote-track">
-          <VoteTrack />
-        </div>
-        <div className="game-main-board">
-          <Board text='yesssssir' />
+        <div className="upper-content">
+          <div className="vote-track">
+            <VoteTrack />
+          </div>
+          <div className="game-main-board">
+            <Board text='yesssssir' />
+          </div>
         </div>
         <div className="players-footer">
           <Players />
