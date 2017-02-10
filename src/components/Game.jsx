@@ -17,7 +17,7 @@ class Game extends Component {
           </div>
         </div>
         <div className="players-footer">
-          <Players />
+          <Players numPlayers="7" />
         </div>
       </div>
     );

@@ -17,6 +17,7 @@ class VoteTrack extends Component {
           <tr className="vote-track-circle"><td className="align-center">4</td></tr>
           <tr className="vspace"></tr>
           <tr className="vote-track-circle red-circle"><td className="align-center">5</td></tr>
+          <tr className="vspace"></tr>
           </tbody>
         </table>
       </div>

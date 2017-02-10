@@ -1,1 +1,25 @@
+.row {
+  width: 100%;
+  height: 100%;
+}
 
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+.col-5 {
+  display: inline-block;
+  width: calc(100% / 5);
+}
+
+.board-column {
+  text-align: center;
+  height: 100%;
+}
