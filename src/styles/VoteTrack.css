@@ -1,0 +1,46 @@
+.vote-track-title {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-size: 24px;
+  color: ghostwhite;
+}
+
+.vote-track-circle {
+  display: inline-block;
+  flex: 1 1 auto;
+  width: 80%;
+  margin: 0px 10%;
+  padding: 9% 0px;
+  border-radius: 99px;
+  text-align: center;
+  background-color: rgba(16, 68, 16, 0.53);
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.table-full {
+  display: flex;
+  height: 100%;
+  color: ghostwhite;
+  flex-flow: column;
+  align-items: stretch;
+}
+.vspace{
+  display: inline-block;
+  flex: 1 1 auto;
+}
+.align-center {
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.full-height {
+  height: 100%
+}
+
+.red-circle {
+  background-color: rgba(80, 18, 24, 0.53) !important;
+}
