@@ -39,7 +39,6 @@
   position: relative;
   margin-left: 2.5%;
   height: 260px;
-  background-color: gray; /* will be invisible */
   display: block;
   width: 95%;
 }

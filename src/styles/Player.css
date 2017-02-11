@@ -1,0 +1,16 @@
+.full-height {
+  height: 100%;
+  width: 100%;
+}
+.player-actions {
+  height: 89%;
+}
+.player-name {
+  height: calc(11% - 1px);
+  border-top: solid #4a4a4a 1px;
+  border-left: solid #4a4a4a 1px;
+  border-right: solid #4a4a4a 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #bdbdbd;
+}
