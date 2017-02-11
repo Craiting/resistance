@@ -12,8 +12,8 @@ class Players extends Component {
     var styleClass = 'col-'.concat(this.props.numPlayers);
     for (var i = 0; i < parseInt(this.props.numPlayers); i++) {
       players.push(
-        <div className={styleClass}>
-          <Player p_num={i} />
+        <div key={i} className={'player-col ' + styleClass}>
+          <Player p_num={i+1} />
         </div>
       )
     }
