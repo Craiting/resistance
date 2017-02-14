@@ -1,0 +1,16 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+.half {
+  height: 50%;
+  width: 100%;
+}
+.upper-half {
+  color: ghostwhite;
+}
+.lower-half {
+  color: ghostwhite;
+  font-size: 20px;
+  font-weight: bold;
+}
