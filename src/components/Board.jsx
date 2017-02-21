@@ -21,7 +21,7 @@ class Board extends Component {
           {this.renderMission(3,1,['craig','jeff','spense'],'SPY')}
         </div>
         <div className="col-5 board-column">
-          {this.renderMission(4,1,[],null)}
+          {this.renderMission(4,1,['Mom', 'Dad', 'Corey', 'Hazel'],'RES')}
         </div>
         <div className="col-5 board-column">
           {this.renderMission(5,2,[],null)}

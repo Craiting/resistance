@@ -16,13 +16,13 @@ class Mission extends Component {
     return(
       <div className="container">
         <div className="half upper-half">
-          {(this.props.failsRequired > 1
-            ? <span>{this.props.failsRequired} fails required</span>
-            : null)}
-          <div>
-            <span>
+          <div className="mission-box">
+            <span className={"circle " + `victor-${this.props.victor}`}>
               {this.props.agentCount}
             </span>
+            {(this.props.failsRequired > 1
+              ? <span className="fails-req">{this.props.failsRequired} fails required</span>
+              : null)}
           </div>
         </div>
         <div className="half lower-half">

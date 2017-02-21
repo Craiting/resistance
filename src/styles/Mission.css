@@ -11,6 +11,33 @@
 }
 .lower-half {
   color: ghostwhite;
-  font-size: 20px;
+  font-size: 3vh;
   font-weight: bold;
+}
+.circle {
+  display: inline-block;
+  height: 16vh;
+  line-height: 16vh;
+  font-size: 8vh;
+  width: 16vh;
+  border-radius: 81px;
+  background-color: black;
+}
+.mission-box {
+  padding-top: 18%;
+}
+.fails-req {
+  display: inherit;
+  font-size: 2.8vh;
+  line-height: 2.8vh;
+  color: #FF5722;
+  font-weight: 600;
+}
+.victor-SPY {
+  color: black;
+  background-color: #E53935;
+}
+.victor-RES {
+  color: white;
+  background-color: #2196F3;
 }
