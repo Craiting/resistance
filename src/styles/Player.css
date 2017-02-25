@@ -14,3 +14,12 @@
   border-top-right-radius: 5px;
   background-color: #bdbdbd;
 }
+
+.vote-card {
+  display: inline-block;
+  height: 90%;
+  background-color: #bdbdbd;
+  width: 85%;
+  border-radius: 5px;
+  border: solid #4a4a4a 1px;
+}
