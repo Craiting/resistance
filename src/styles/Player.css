@@ -23,3 +23,21 @@
   border-radius: 5px;
   border: solid #4a4a4a 1px;
 }
+.reject-card{
+  background-color: pink;
+  height: calc(100% - 10px);
+  width: 100%;
+  padding-top: 10px;
+}
+.approve-card{
+  background-color: lightgreen;
+  height: calc(100% - 10px);
+  width: 100%;
+  padding-top: 10px;
+}
+.reject-img {
+  height: 50%;
+}
+.approve-img {
+
+}

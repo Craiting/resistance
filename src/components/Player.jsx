@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
 import '../styles/Player.css';
+import rejectImg from '../images/reject.png';
+import approveImg from '../images/approve.png';
 
 class Player extends Component {
   constructor(){
     super()
     this.state = {
-      voteStatus: "reject",
+      voteStatus: "approve",
       isCommander: false,
       isAgent: true
     }
   }
   renderReject() {
     return (
-      <div className="rejectCard">
-        <span>Reject</span>
+      <div className="reject-card">
+        <img src={rejectImg} className="reject-img" />
+        <h2>Reject</h2>
       </div>
     )
   }
   renderApprove() {
     return (
-      <div className="approveCard">
-        Approve
+      <div className="approve-card">
+        <img src={approveImg} className="reject-img" />
+        <h2>Approve</h2>
       </div>
     )
   }
